@@ -1,0 +1,16 @@
+{
+  "name": "sweng861-crud",
+  "version": "1.0.0",
+  "description": "SWENG 861 CRUD project API",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "node backend/index.js"
+  },
+  "keywords": ["crud", "api"],
+  "author": "bin wu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
