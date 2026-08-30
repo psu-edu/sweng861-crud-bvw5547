@@ -8,12 +8,12 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // Routes
-app.get('/', (req, res) => {
-  res.json({ message: 'Hello World! SWENG 861 CRUD API' });
+app.get('/health', (req, res) => {
+  res.json({ status: 'ok' });
 });
 
-app.get('/api/health', (req, res) => {
-  res.json({ status: 'healthy' });
+app.get('/api/hello', (req, res) => {
+  res.json({ message: 'Hello, World!' });
 });
 
 // Start server
